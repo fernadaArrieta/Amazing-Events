@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+   /*  display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-family: "Ubuntu", sans-serif; */
+    background-image: url(../Imagenes/Images/fondo4.jpg);
+    
+  }
+  /* header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 8rem;
+  } */
+/*   .name-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #nombre-empresa {
+    font-family: "Cinzel", serif;
+    color: black;
+  }
+  #logo {
+    width: 120px;
+    height: 100px;
+  } */
+/*   a {
+    text-decoration: none;
+    color: black;
+    padding: 1em 1em;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+      
+  }
+  a:active{
+    color: rgb(180, 49, 130); 
+  }
+  
+  a:hover {
+    color: rgb(180, 49, 130);
+  
+   }
+ 
+ 
+
+
+th{
+  background-color: palevioletred;
+  border: solid grey;
+  font-size: 30px;
+   }
+ 
+.categorias{
+background-color: rgba(240, 230, 140, 0.5);
+border: solid grey;
+font-size: 30px;
+} 
+.ingresos{
+  background-color: rgba(240, 230, 140, 0.5);
+  border: solid grey;
+  font-size: 18px;}
+  
+.asistencias{
+    background-color: rgba(240, 230, 140, 0.5);
+    border: solid grey;
+    font-size: 18px;
+    }  */
+  

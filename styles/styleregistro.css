@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Ubuntu:wght@300&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: "Ubuntu", sans-serif;
+  -webkit-text-stroke: 0.5px rgb(102, 6, 102);
+  color: #fffafe;
+  background-image: url(../Imagenes/Images/fondo4.jpg);
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 8rem;
+}
+#nombre-empresa {
+  font-family: "Cinzel", serif;
+  color: black;
+}
+#logo {
+  width: 120px;
+  height: 100px;
+}
+.name-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+    background: none;
+    font-size: 20px;
+    font-weight:800;
+   padding-left: 0.5rem;
+   padding-right: 0.5rem;
+}
+
+  a:hover {
+    text-decoration: none;
+    background: none;
+    font-size: 20px;
+    color: rgb(102, 6, 102);
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+button {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 10px;
+  background-color: rgb(163, 40, 101);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  width: 350px;
+  padding: 16px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: rgba(204, 204, 204, 0.794);
+  -webkit-box-shadow: 2px 2px 5px #999;
+  -moz-box-shadow: 2px 2px 5px #999;
+  font-size: 20px;
+  color: black;
+}
+
+fieldset {
+  border: none;
+}
+label {
+  width: 100%;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 3px 10px;
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: 8px 0;
+}
+
+select {
+  width: 20vw;
+  padding: 3px 10px;
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: 8px 0;
+  display: inline-block;
+}
+.terminos {
+  display: flex;
+}
+.input-terminos {
+  width: 10%;
+}
+.label-terminos {
+  width: 90%;
+}
+
+footer {
+  height: 4rem;
+  width: 100%;
+  padding: 1rem;
+  padding-top: 8rem;
+ 
+}

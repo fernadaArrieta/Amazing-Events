@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Ubuntu:wght@300&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: 'Ubuntu', sans-serif;
+   -webkit-text-stroke: 0.5px rgb(102, 6, 102);
+  color: #fffafe;
+ background-image: url(../Imagenes/Images/fondo4.jpg);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 8rem;
+}
+
+#nombre-empresa {
+  font-family: "Cinzel", serif;
+  color: black;
+ 
+}
+#logo {
+  width: 120px;
+  height: 100px;
+}
+.name-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+  padding: 1em 1em;
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  
+  
+}
+a:active{
+  color: rgb(180, 49, 130); 
+}
+
+a:hover {
+  color: rgb(180, 49, 130);
+
+ }
+ .filters{
+  width: 15vw;
+  display: flex;
+  flex-direction: column-reverse;
+   font-size: 30px;
+  background-color: rgb(204, 204, 204);
+  border-radius: 5px;
+}
+
+#searchInput{
+   font-size: 20px;
+   background-color: rgb(204, 204, 204);
+   border-radius: 5px;
+ }   
+    
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(204, 204, 204);
+  -webkit-box-shadow: 2px 2px 5px #999;
+  -moz-box-shadow: 2px 2px 5px #999;
+  font-size: 20px;
+  color: black;
+  width: 60%;
+  height: 70%;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: auto;
+}
+.meta{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: 70%;
+}
+.img-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  
+}
+
+
+
+h2{
+  font-family: "Cinzel", serif;
+  text-align: center;
+}
+h4{
+  text-align: center;
+}
+p{
+  text-align:justify;
+  color: grey;
+}
+
+
+footer{
+    width: 100%;
+    padding: 1rem;
+    
+}

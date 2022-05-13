@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  min-height: 100vh;
+ height: 100vh;
   overflow-x: hidden;
   font-family: "Ubuntu", sans-serif;
   -webkit-text-stroke: 0.5px rgb(102, 6, 102);
@@ -68,6 +68,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100%;
 }
 form {
   width: 350px;
@@ -75,7 +76,7 @@ form {
   border-radius: 10px;
   margin: auto;
   background-color: rgba(204, 204, 204, 0.794);
-  -webkit-box-shadow: 2px 2px 5px #999;
+  box-shadow: 2px 2px 5px #999;
   -moz-box-shadow: 2px 2px 5px #999;
   font-size: 20px;
   color: black;
